@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    background-color: #000000;
+    width: 100%;
+    
+}
+
+.enlaces{
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+.enlaces:hover{
+    color: #FFD000;
+}
+h3,h4,h6{
+    color: #FFD000;
+}
+
+#parteIzquierda{
+    position: fixed;
+    left: 0;
+    width: 400px;
+    height: 100vh;
+    background-color: black;
+    
+
+}
+
+ul{
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.imagen{
+    border:solid 1px #FFD000;
+    width: 52%;
+    margin-left: 193px;
+    margin-top: 20px;
+   
+}
+
+#textoDebajoLogo{
+    text-align:right ;
+    margin-top: 4px;
+    color: #FFD000;
+      
+}
+
+#lista{
+    margin-top: 180px;
+
+}
+
+
+.imgRedes{
+    font-size: 20px; 
+    margin-left: 20px; 
+    width: 50px;
+}
+#parteAbajo{
+    margin-top: 100px;
+}
+
+#textoAbajo{
+    text-align: center;
+    margin-top: 40px;
+}
+
+span{
+    font-size: 15px;
+}
+
+.imagenDerecha{
+    display: flex ;
+    position: absolute;
+    top: 3%;
+    left: 46%;
+    height: 93% ;
+    
+    
+}
+.imagenChiquita{
+    position: absolute;
+    top: 0%; left: 101%; 
+}
